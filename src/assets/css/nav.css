@@ -1,0 +1,11 @@
+.navigation ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul li{
+    padding: 0 15px;
+    color: #fff;
+    font-size: calc(5% + 2.5vmin);
+}

@@ -1,10 +1,12 @@
 .header-main{
-    background: red;
+    background-color: #282c34;
 }
 .header-main .app-header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
 }
 .header-main .app-header .App-logo{
-    height: 8vmin;
+    height: 5vmin;
 }

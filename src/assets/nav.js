@@ -1,12 +1,15 @@
-// import logo from './logo.svg';
-// import './App.css';
+import './css/nav.css';
+
+/** 
+ **  l'utilisation de la liste doit être fait avec une boucle 
+*/
 
 function Nav() {
   return (
-    <div className="Navigation">
+    <div className="navigation">
         <ul>
-            <li>A propos</li>
-            <li>Nos produits</li>
+            <li>Apprentissage</li>
+            <li>React simple</li>
             <li>Nous contacter</li>
         </ul>
     </div>
