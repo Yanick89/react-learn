@@ -1,0 +1,10 @@
+.header-main{
+    background: red;
+}
+.header-main .app-header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-main .app-header .App-logo{
+    height: 8vmin;
+}
