@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function Like (){
+function Like (props){
     const [counter, setCounter] = useState(0)
     const handlerCounter = () =>{
         setCounter(counter + 1)
@@ -8,7 +8,8 @@ function Like (){
 
     return (
         <div className="btn-aime">
-            <button onClick={handlerCounter}>🤙</button>
+            <h2>Laisse un coeur si t'as aimer </h2>
+            <button onClick={handlerCounter}>❤️</button>
             {counter}
         </div>
     )
