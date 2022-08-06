@@ -1,7 +1,8 @@
+import Inputs from '../jour-4/Inputs'
 function Tag (props) {
     const tag = props.list;
-    let item = tag.map(element => 
-        <li>
+    let item = tag.map((element, index) => 
+        <li key={index}>
             {element}
         </li>
     )
@@ -10,6 +11,10 @@ function Tag (props) {
             <ul>
               {item}
             </ul>
+            <div>
+                <h3>select element</h3>
+                <Inputs list={tag}/>
+            </div>
         </div>
     )
 }
